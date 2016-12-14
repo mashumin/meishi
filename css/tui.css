@@ -1,0 +1,51 @@
+body,html,p{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+*{
+	box-sizing: border-box;
+}
+.bj{
+	width: 100%;
+	height: 100%;
+	background: url(../img/tj1.jpg);
+}
+.tui{
+	width: 100%;
+	height: 6rem;
+	position: absolute;
+	top: 0;bottom: 0;left: 0;right: 0;
+	margin: auto;
+}
+.tuijie{
+	width: 5rem;
+	height: 5rem;
+	background: #fff;
+}
+.imgbox{
+	display: block;
+	width: 3rem;
+	height: 3rem;
+	background: url(../img/tj2.jpg);
+	background-size: cover;	
+	margin: 0.2rem auto;
+	margin: 0 auto;
+}
+.miaosu{
+	display: block;
+	width: 100%;
+	height: 2rem;
+	padding:0.05rem 0.2rem 0 0.2rem;
+	font-size: 0.3rem;
+	color: #0B3B7D;
+	text-decoration: none;
+	
+}
+.miaosu p{
+	display: block;
+	width: 100%;
+	height: 0.5rem;
+	color: #BC2100;
+}

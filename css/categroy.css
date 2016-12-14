@@ -1,0 +1,167 @@
+body,html{
+	padding: 0;
+	margin:0;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 0.9rem;
+	bottom: 0.96rem;
+	left: 0;
+	width: 100%;
+	
+	overflow: hidden;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+header {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0.88rem;
+	background: #FF6634;
+	
+}
+.title{
+	width: 33.33%;
+	float: left;
+	line-height: 0.88rem;
+	text-align: center;
+	font-size: 0.45rem;
+	color: #fff;
+	text-decoration: none;
+}
+.select{
+	background: #fff;
+	width: 2rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	border-radius: 0.4rem;
+	padding-left: 0.1rem;
+}
+header input{
+	/*margin-top: 0.1rem;*/
+	background: none;border: 0;
+}
+.listbox{
+	width: 100%;
+	height: 100%;
+}
+.listbox >a{
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	position: relative;
+}
+.listbox >a p{
+	margin: 0;
+	display: block;
+	width: 100%;
+	height: 1.5rem;
+	font-size: 0.5rem;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+	line-height: 1.5rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.listbox >a:nth-last-of-type(1){
+	
+	height: 3.5rem;
+	background: url(../img/cp1.jpg)no-repeat center;
+	background-size: cover;
+	
+}
+.listbox >a:nth-last-of-type(2){
+	
+	height: 5rem;
+	
+	background: url(../img/cp2.jpg)no-repeat center;
+	background-size: cover;
+	
+}
+.listbox >a:nth-last-of-type(3){
+	
+	height: 4.5rem;
+	background: url(../img/cp3.jpg)no-repeat center;
+	background-size: cover;
+	
+}
+.listbox >a:nth-last-of-type(3){
+	
+	height: 5.5rem;
+	background: url(../img/cp3.jpg)no-repeat center;
+	background-size: cover;
+	
+}
+.listbox >a:nth-last-of-type(4){
+	
+	height: 3.5rem;
+	background: url(../img/cp4.jpg)no-repeat center;
+	background-size: cover;
+	
+}
+.listbox >a:nth-last-of-type(5){
+	
+	height: 4.5rem;
+	background: url(../img/cp5.jpg)no-repeat center;
+	background-size: cover;
+	
+}
+.foot{
+	width: 100%;
+	height: 0.88rem;
+	background: #FF6634;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.foot div{
+	width: 25%;
+    height: 100%;	
+    float: left;
+    line-height: 0.5rem;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    font-size: 0.4rem;
+}
+.foot .active{
+	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #B42E00;
+}
+.foot span{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.5rem;
+}

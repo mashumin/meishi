@@ -1,0 +1,84 @@
+body,html{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+.sp{
+	width: 100%;
+	height:100%;
+}
+.sp1{
+	width: 100%;
+	height: 100%;
+	background: #FFECCC
+}
+.wenzi{
+	width: 8.5rem;
+	height: 15.5rem;
+	background: url(../img/sp3.png);
+	background-size: 8.86rem 15.47rem;
+}
+.sp2{
+	width: 100%;
+	height: 100%;
+	background: #FE9697;
+}
+.shanp2{
+	width: 6.5rem;
+	height: 4.5rem;
+	background: url(../img/sp4.png) no-repeat;
+	background-size: contain;
+}
+.shanp22{
+	width:100%;
+	height: 5.5rem;
+	background: url(../img/sp1.png) no-repeat center;
+	background-size: contain;
+}
+.sp2 h1{
+	font-size: 0.5rem;
+	color: #fff;
+	text-align: center;
+}
+.sp3{
+	width: 100%;
+	height: 100%;
+}
+.shanp3{
+	width: 6.5rem;
+	height: 3.5rem;
+	background: url(../img/sp2.png) no-repeat;
+	background-size: contain;
+	margin-top: 0.3rem;
+}
+.shanp33{
+	width: 5.5rem;
+	height: 4.5rem;
+	background: url(../img/sp5.png) no-repeat center;
+	background-size: contain;
+	float: right;
+}
+/*.shanp333{
+	width: 4.5rem;
+	height: 4.5rem;
+	background: url(../img/sp6.png) no-repeat center;
+	background-size: contain;
+	margin-top: 5.2rem;
+	float: left;
+}*/
+.sp3 a{
+	display: block;
+	text-decoration: none;
+	width: 2.8rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	font-size: 0.5rem;
+	color: #fff;
+	margin:  0 auto;
+	margin-top:7.2rem;
+	background: #FDD900;
+	text-align: center;
+	/*float: left;*/
+}

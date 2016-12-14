@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/swiper.css" />
+		<link rel="stylesheet" href="css/tui.css"/>
+		<script src="js/jquery.js"></script>
+		<script src="js/swiper.min.js"></script>
+	</head>
+	<body>
+		<div class="bj">
+			<div class="swiper-container tui">
+				<div class="swiper-wrapper tui">
+					<div class="swiper-slide tuijie">
+						<a class="imgbox" href="caipu.html"></a>
+						<a class="miaosu" href="caipu.html">
+							<p>剁椒鱼头</p>
+							是湖南省的传统名菜，属于湘菜系。
+						</a>
+					</div>
+					<div class="swiper-slide tuijie">
+						<a class="imgbox" href="caipu.html"></a>
+						<a class="miaosu" href="caipu.html">
+							<p>剁椒鱼头</p>
+							是湖南省的传统名菜，属于湘菜系。
+						</a>
+					</div>
+					<div class="swiper-slide tuijie">
+						<a class="imgbox" href="caipu.html"></a>
+						<a class="miaosu" href="caipu.html">
+							<p>剁椒鱼头</p>
+							是湖南省的传统名菜，属于湘菜系。
+						</a>
+					</div>
+					<div class="swiper-slide tuijie">
+						<a class="imgbox" href="caipu.html"></a>
+						<a class="miaosu" href="caipu.html">
+							<p>剁椒鱼头</p>
+							是湖南省的传统名菜，属于湘菜系。
+						</a>
+					</div>
+					<div class="swiper-slide tuijie">
+						<a class="imgbox" href="caipu.html"></a>
+						<a class="miaosu" href="caipu.html">
+							<p>剁椒鱼头</p>
+							是湖南省的传统名菜，属于湘菜系。
+						</a>
+					</div>
+					<div class="swiper-slide tuijie">
+						<a class="imgbox" href="caipu.html"></a>
+						<a class="miaosu" href="caipu.html">
+							<p>剁椒鱼头</p>
+							是湖南省的传统名菜，属于湘菜系。
+						</a>
+					</div>
+					<div class="swiper-slide tuijie">
+						<a class="imgbox" href="caipu.html"></a>
+						<a class="miaosu" href="caipu.html">
+							<p>剁椒鱼头</p>
+							是湖南省的传统名菜，属于湘菜系。
+						</a>
+					</div>
+					<div class="swiper-slide tuijie">
+						<a class="imgbox" href="caipu.html"></a>
+						<a class="miaosu" href="caipu.html">
+							<p>剁椒鱼头</p>
+							是湖南省的传统名菜，属于湘菜系。
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+		<script>
+		function size(origin,type){
+			var type=type || "x";
+			if(type=="x"){
+				var widths=document.documentElement.clientWidth;
+				var sizes=widths/origin*100;
+			}else if(type=="y"){
+				var heights=document.documentElement.clientHeight;
+				var sizes=heights/origin*100;
+			}
+			document.getElementsByTagName("html")[0].style.fontSize=sizes+"px";
+
+		}
+		window.onload=function() {
+			size(750);
+		}
+		var mySwiper = new Swiper('.swiper-container',{
+			slidesPerView : 2,
+			spaceBetween : 20,
+		})
+	</script>
+</html>

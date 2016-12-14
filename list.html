@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/font/iconfont.css" />
+		
+		<link rel="stylesheet" href="css/list.css"/>
+		<script src="js/jquery.js"></script>
+		<script src="js/swiper.jquery.js"></script>
+			
+	</head>
+	<body>
+		<div class="catebox">
+			<div class="long">
+				<header id="header">
+		<a class="title iconfont icon-fanhui" href="index.html"></a>
+	    <h1 class="title">菜谱</h1>
+	    <div class="title"><input type="search" results="s"  name="search" class="select"/></div>
+	</header>
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide qieh">
+							<div>
+								<img src="img/sy1.jpg" alt="">
+								<div class="word">香港：烧腊</div>
+								<p>两三斤重的腩肉,刮干净猪毛,用针“吉”猪皮,越多越好... </p>
+								<a href="caipu.html">查看更多</a>
+							</div>
+						</div>
+						<div class="swiper-slide qieh">
+							<div>
+								<img src="img/sy1.jpg" alt="">
+								<div class="word">香港：烧腊</div>
+								<p>两三斤重的腩肉,刮干净猪毛,用针“吉”猪皮,越多越好... </p>
+								<a href="caipu.html">查看更多</a>
+							</div>
+						</div>
+						<div class="swiper-slide qieh">
+							<div>
+								<img src="img/sy1.jpg" alt="">
+								<div class="word">香港：烧腊</div>
+								<p>两三斤重的腩肉,刮干净猪毛,用针“吉”猪皮,越多越好... </p>
+								<a href="caipu.html">查看更多</a>
+							</div>
+						</div>
+						<div class="swiper-slide qieh">
+							<div>
+								<img src="img/sy1.jpg" alt="">
+								<div class="word">香港：烧腊</div>
+								<p>两三斤重的腩肉,刮干净猪毛,用针“吉”猪皮,越多越好... </p>
+								<a href="caipu.html">查看更多</a>
+							</div>
+						</div>
+						<div class="swiper-slide qieh">
+							<div>
+								<img src="img/sy1.jpg" alt="">
+								<div class="word">香港：烧腊</div>
+								<p>两三斤重的腩肉,刮干净猪毛,用针“吉”猪皮,越多越好... </p>
+								<a href="caipu.html">查看更多</a>
+							</div>
+						</div>
+						<div class="swiper-slide qieh">
+							<div>
+								<img src="img/sy1.jpg" alt="">
+								<div class="word">香港：烧腊</div>
+								<p>两三斤重的腩肉,刮干净猪毛,用针“吉”猪皮,越多越好... </p>
+								<a href="caipu.html">查看更多</a>
+							</div>
+						</div>
+						<div class="swiper-slide qieh">
+							<div>
+								<img src="img/sy1.jpg" alt="">
+								<div class="word">香港：烧腊</div>
+								<p>两三斤重的腩肉,刮干净猪毛,用针“吉”猪皮,越多越好... </p>
+								<a href="caipu.html">查看更多</a>
+							</div>
+						</div>
+						<div class="swiper-slide qieh">
+							<div>
+								<img src="img/sy1.jpg" alt="">
+								<div class="word">香港：烧腊</div>
+								<p>两三斤重的腩肉,刮干净猪毛,用针“吉”猪皮,越多越好... </p>
+								<a href="caipu.html">查看更多</a>
+							</div>
+						</div>
+						<div class="swiper-slide qieh">
+							<div>
+								<img src="img/sy1.jpg" alt="">
+								<div class="word">香港：烧腊</div>
+								<p>两三斤重的腩肉,刮干净猪毛,用针“吉”猪皮,越多越好... </p>
+								<a href="caipu.html">查看更多</a>
+							</div>
+						</div>
+					</div>
+					<!-- 如果需要分页器 -->
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</div>
+		<div class="foot" id="foot">
+    	<a href="index.html"><div class="iconfont icon-shouye2-copy active"><span>首页</span></div></a>
+    	<a href="list.html"><div class="iconfont icon-fenlei"><span>菜谱</span></div></a>
+    	<a href="tui.html"><div class="iconfont icon-tuijian02"><span>推荐</span></div></a>
+    	<a href="my.html"><div class="iconfont icon-iconfontwode"><span>我的</span></div></a>
+</div>
+	</body>
+	<script>
+		function size(origin,type){
+			var type=type || "x";
+			if(type=="x"){
+				var widths=document.documentElement.clientWidth;
+				var sizes=widths/origin*100;
+			}else if(type=="y"){
+				var heights=document.documentElement.clientHeight;
+				var sizes=heights/origin*100;
+			}
+			document.getElementsByTagName("html")[0].style.fontSize=sizes+"px";
+
+		}
+		window.onload=function() {
+			size(750);
+		}
+		var mySwiper = new Swiper ('.swiper-container', {
+			pagination: '.swiper-pagination',
+			effect : 'coverflow',
+			slidesPerView: 3,
+			centeredSlides: true,
+			coverflow: {
+				rotate: 30,
+				stretch: 10,
+				depth: 40,
+				modifier: 1,
+				slideShadows : true
+			}
+		})
+	</script>
+</html>

@@ -1,0 +1,86 @@
+body,html,ul,li{
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    overflow: hidden;
+}
+.mybox{
+    width:100%;
+    height:100%;
+    background: url(../img/wd1.jpg) no-repeat bottom;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+.zjhao{
+    width:100%;
+    height:100%;
+    background: rgba(255,255,255,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+}
+.top{
+    padding: 0.5rem 0 0 0;
+    width:100%;
+    height:5rem;
+    box-shadow: 0.2rem 0.25rem 0.2rem 0 #903E36;
+}
+.top .toux{
+    width:2rem;
+    height:2rem;
+    border-radius: 50%;
+    border:0.1rem solid #fff;
+    background: url(../img/tx.jpg) no-repeat center;
+    -webkit-background-size:cover;
+    background-size:cover;
+    margin: 0 auto;
+}
+.top p{
+    font-size: 0.3rem;
+    text-align: center;
+    color: #402B36;
+}
+.top h1{
+    text-align: center;
+    font-size: 0.3rem;
+    color: #402B36;
+    margin-top: 0.2rem;
+}
+ul{
+    width:100%;
+    height:auto;
+    margin-top: 0.4rem;
+}
+li{
+    list-style: none;
+    width:100%;
+    padding-left:0.3rem;
+    height:1.5rem;
+line-height: 1.5rem;
+    font-size: 0.4rem;
+    color: #402B36;
+    margin: 0 auto;
+    position: relative;
+}
+li .icon-jingru{
+    position: absolute;
+    top:0;
+
+    right:0.5rem;
+    margin: auto;
+    font-size:0.3rem;
+    height:0.02rem;
+}
+.exit{
+    display: block;
+    width:7rem;
+    height:1rem;
+    background: #F7980F;
+    font-size: 0.5rem;
+    text-decoration: none;
+    line-height: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}

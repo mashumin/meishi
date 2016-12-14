@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<link rel="stylesheet" href="css/animate.min.css" />
+		<link rel="stylesheet" href="css/sp.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<script src="js/swiper.animate1.0.2.min.js"></script>
+	</head>
+	<body>
+	<div class="swiper-container sp">
+	    <div class="swiper-wrapper ">
+	        <div class="swiper-slide sp1">
+	        	<div class="wenzi ani" swiper-animate-effect="swing" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"></div>
+	        </div>
+	        <div class="swiper-slide sp2">
+	        	<div class="shanp2 ani" swiper-animate-effect="swing" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"></div>
+	        	<div class="shanp22 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.6s"></div>
+	        	<h1 class="ani" swiper-animate-effect="flip" swiper-animate-duration="0.5s" swiper-animate-delay="0.9s">我的专属厨房</h1>
+	        </div>
+	        <div class="swiper-slide sp3">
+	        	<div class="shanp3 ani" swiper-animate-effect="rotateIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.6s"></div>
+	        	<div class="shanp33 ani" swiper-animate-effect="rotateIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.8s"></div>
+	        	<div class="shanp333 ani" swiper-animate-effect="rotateIn" swiper-animate-duration="0.5s" swiper-animate-delay="1s"></div>
+	        	<a class="ani" swiper-animate-effect="rotateIn" swiper-animate-duration="0.5s" swiper-animate-delay="1s" href="login.html">寻找美味</a>
+	        </div>
+	    </div>
+	    <div class="swiper-pagination"></div>
+	</div>
+	</body>
+	<script>
+	function size(origin,type){
+        var type=type || "x";
+        if(type=="x"){
+            var widths=document.documentElement.clientWidth;
+            var sizes=widths/origin*100;
+        }else if(type=="y"){
+            var heights=document.documentElement.clientHeight;
+            var sizes=heights/origin*100;
+        }
+        document.getElementsByTagName("html")[0].style.fontSize=sizes+"px";
+
+    }
+    window.onload=function(){
+        size(1334,"y");
+       var mySwiper = new Swiper('.swiper-container', {
+	    pagination: '.swiper-pagination',
+	     onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+    swiperAnimateCache(swiper); //隐藏动画元素 
+    swiperAnimate(swiper); //初始化完成开始动画
+  }, 
+  onSlideChangeEnd: function(swiper){ 
+    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+  } 
+      })
+       
+       }
+</script>
+</html>

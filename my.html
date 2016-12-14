@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/my.css">
+    <link rel="stylesheet" href="css/font/iconfont.css">
+</head>
+<body>
+<div class="mybox">
+    <div class="zjhao">
+    <div class="top">
+        <div class="toux"></div>
+        <p>小蘑菇</p>
+        <h1>用心做好每一道菜。</h1>
+    </div>
+    <ul>
+        <li>我的收藏 <div class="iconfont icon-jingru"></div></li>
+        <li>我的作品 <div class="iconfont icon-jingru"></div></li>
+        <li>我的消息 <div class="iconfont icon-jingru"></div></li>
+        <li>我的菜单 <div class="iconfont icon-jingru"></div></li>
+    </ul>
+    <a href=""  class="exit">退出登录</a>
+    </div>
+</div>
+</body>
+<script>
+    function size(origin,type){
+        var type=type || "x";
+        if(type=="x"){
+            var widths=document.documentElement.clientWidth;
+            var sizes=widths/origin*100;
+        }else if(type=="y"){
+            var heights=document.documentElement.clientHeight;
+            var sizes=heights/origin*100;
+        }
+        document.getElementsByTagName("html")[0].style.fontSize=sizes+"px";
+
+    }
+    window.onload=function() {
+        size(750);
+    }
+</script>
+</html>

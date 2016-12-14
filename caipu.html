@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/font/iconfont.css" />
+		<link rel="stylesheet" href="css/caipu.css" />
+	</head>
+
+	<body>
+	<header id="header">
+		<a class="title iconfont icon-fanhui" href="list.html"></a>
+	    <h1 class="title">菜谱</h1>
+	    <div class="title"><input type="search" results="s"  name="search" class="select"/></div>
+	</header>
+	<div class="beijing">
+		<div class="imgbox">
+			<div class="caipbox">
+			<div class="img"></div>
+			<p>鲜面条加一汤匙香油拌匀，入蒸锅大火蒸10分钟。蒸好的面团用筷子抖散至晾凉（也可以入锅煮1-2分钟至七八成熟，我觉得蒸的更劲道，而且蒸好的面“自来卷”更好看），榨菜，酸豆角、香葱切碎，榨菜，酸豆角(做法请点击：自制酸豆角)香葱切碎，最后，把芝麻酱，用香油，老抽，生抽，盐拌匀。晾凉的面从新放入锅中，煮大约1分钟，熟了即可，不要煮太软。捞出后盛入碗中，浇上拌好的酱汁，撒上榨菜，酸豆角和香葱，趁热拌匀即可.</p></div>
+		</div>
+	</div>
+<div class="foot" id="foot">
+    	<a href="index.html"><div class="iconfont icon-shouye2-copy active"><span>首页</span></div></a>
+    	<a href="list.html"><div class="iconfont icon-fenlei"><span>菜谱</span></div></a>
+    	<a href="tui.html"><div class="iconfont icon-tuijian02"><span>推荐</span></div></a>
+    	<a href="my.html"><div class="iconfont icon-iconfontwode"><span>我的</span></div></a>
+</div>	
+	</body>
+<script>
+		function size(origin,type){
+        var type=type || "x";
+        if(type=="x"){
+            var widths=document.documentElement.clientWidth;
+            var sizes=widths/origin*100;
+        }else if(type=="y"){
+            var heights=document.documentElement.clientHeight;
+            var sizes=heights/origin*100;
+        }
+        document.getElementsByTagName("html")[0].style.fontSize=sizes+"px";
+
+    }
+	window.onload=function(){
+		size(750)
+	}
+</script>
+</html>

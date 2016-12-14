@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/login.css" />
+	</head>
+	<body>
+		<div class="login">
+			<div class="bod">
+			<h1>美食记</h1>
+			<p>专属你的厨房</p>
+			<form action="index.html">
+				<div>用户名：<input type="text" name="name" placeholder="请输入用户名"/></div>
+				<div>密&nbsp;&nbsp;&nbsp;&nbsp;码：<input type="password" name="pass" placeholder="请输入密码"/></div>
+				<div><input type="submit" name="login" value="登录"/>
+				<input type="submit" name="rest" value="注册"/></div>
+			</form>
+		</div>
+		</div>
+	</body>
+	<script>
+		function size(origin,type){
+        var type=type || "x";
+        if(type=="x"){
+            var widths=document.documentElement.clientWidth;
+            var sizes=widths/origin*100;
+        }else if(type=="y"){
+            var heights=document.documentElement.clientHeight;
+            var sizes=heights/origin*100;
+        }
+        document.getElementsByTagName("html")[0].style.fontSize=sizes+"px";
+
+    }
+	window.onload=function(){
+		size(750)
+	}
+</script>
+</html>

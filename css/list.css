@@ -1,0 +1,124 @@
+body,html{
+	padding:0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+a{
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body{font-family:Helvetica;}
+header {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0.88rem;
+	background: #FF6634;
+	
+}
+.title{
+	width: 33.33%;
+	float: left;
+	line-height: 0.88rem;
+	text-align: center;
+	font-size: 0.45rem;
+	color: #fff;
+	text-decoration: none;
+}
+.select{
+	background: #fff;
+	width: 2rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	border-radius: 0.4rem;
+	padding-left: 0.1rem;
+}
+.catebox{
+	width: 100%;
+	height: 100%;
+	background: url(../img/list1.jpg)no-repeat center;
+	background-size: cover;
+}
+.long{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	
+	position: absolute;
+	top: 0;left: 0;
+}
+.swiper-container{
+	width:100%;
+	height:6.8rem;
+	position:absolute;
+	top: 0;bottom: 0;left: 0;right: 0;
+	margin: auto;
+}
+.qieh{
+	width:5.5rem;
+	height:5.8rem;
+	
+	
+	background: #fff;
+	padding: 0.1rem;
+}
+
+.qieh>div{
+	width:100%;
+	height:5rem;
+}
+.qieh>div img{
+	width: 100%;
+}
+.qieh>div .word{
+	font-size:0.4rem;
+}
+.qieh>div p{
+	font-size:0.35rem;
+}
+.qieh>div a{
+	text-decoration: none;
+	display: block;
+	width:1.6rem;
+	height:0.6rem;
+	color: #fff;
+	font-size: 0.3rem;
+	background: #ED7403;
+	border-radius: 0.1rem;
+	line-height: 0.6rem;
+	text-align: center;
+	margin: 0 auto;
+}
+.foot{
+	width: 100%;
+	height: 0.88rem;
+	background: #FF6634;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.foot div{
+	width: 25%;
+    height: 100%;	
+    float: left;
+    line-height: 0.5rem;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    font-size: 0.4rem;
+}
+.foot .active{
+	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #B42E00;
+}
+.foot span{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.5rem;
+}

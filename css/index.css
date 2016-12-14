@@ -1,0 +1,243 @@
+body,html,h1,input,p,span{
+	padding: 0;
+	margin: 0;
+	width:100%;
+	height: 100%;
+}
+*{
+	box-sizing: border-box;
+}
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 0.9rem;
+	bottom: 0.96rem;
+	left: 0;
+	width: 100%;
+	
+	overflow: hidden;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+header {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0.88rem;
+	background: #FF6634;
+	
+}
+.title{
+	width: 33.33%;
+	float: left;
+	line-height: 0.88rem;
+	text-align: center;
+	font-size: 0.45rem;
+	color: #fff;
+	text-decoration: none;
+}
+.select{
+	background: #fff;
+	width: 2rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	border-radius: 0.4rem;
+	padding-left: 0.1rem;
+}
+header input{
+	/*margin-top: 0.1rem;*/
+	background: none;border: 0;
+}
+.swiper-container{
+	width: 100%;
+	height: 4.39rem;
+}
+.swiper-slide:nth-of-type(1){
+	background: url(../img/lunb1.jpg) no-repeat center;
+	background-size: cover;
+}
+.swiper-slide:nth-of-type(2){
+	background: url(../img/lunb2.jpg) no-repeat center;
+	background-size: cover;
+}
+.swiper-slide:nth-of-type(3){
+	background: url(../img/lunb3.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.categroy{
+	width: 100%;
+	height: 5rem;
+}
+.categroy a{
+	text-decoration: none;
+	display: block;
+	width: 1.5rem;
+	height: 1.5rem;
+	float: left;
+	background: #D65037;
+	
+	line-height: 1.5rem;
+	color: #fff;
+	text-align: center;
+	margin-left: 0.3rem;
+	margin-top: 0.6rem;
+	border-radius: 50%;
+	z-index: 1;
+}
+.categroy div{
+	font-size: 0.7rem;
+}
+.categroy a:nth-of-type(2){
+	background: #00A2FF;
+}
+.categroy a:nth-of-type(3){
+	background: #FB82A5;
+}
+.categroy a:nth-of-type(4){
+	background: #931F22;
+}
+.categroy a:nth-of-type(5){
+	background: #78902E;
+}
+.categroy a:nth-of-type(6){
+	background: #4E204E;
+}
+.categroy a:nth-of-type(7){
+	background: #0D6152;
+}
+.categroy a:nth-of-type(8){
+	background: #609BE7;
+}
+.categroy div p{
+	width: 100%;
+	height: 0.3rem;
+	font-size: 0.3rem;
+	color: #999;
+	line-height: 0.7rem;
+}
+.list{
+	width: 100%;
+	height: auto;
+	padding: 0.3rem;
+}
+.list a{
+	display: block;
+	width: 33.33%;
+	height:2rem;
+	float: left;
+}
+
+.list div{
+	width: 100%;
+	height:100%;
+	position: relative;
+	float: left;
+}
+.list span{
+	display: block;
+	width: 100%;
+	height: 0.5rem;
+	background: rgba(0,0,0,0.5);
+	font-size: 0.25rem;
+	color: #fff;
+	line-height: 0.5rem;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}
+.list a:nth-of-type(1){
+	background: url(../img/sy1.jpg) no-repeat bottom;
+	background-size: contain;
+}
+.list a:nth-of-type(2){
+	background: url(../img/sy2.jpg) no-repeat bottom;
+	background-size: contain;
+}
+.list a:nth-of-type(3){
+	background: url(../img/sy3.jpg) no-repeat bottom;
+	background-size: contain;
+}
+
+.list a:nth-of-type(4){
+	background: url(../img/sy4.jpg) no-repeat bottom;
+	background-size: contain;
+}
+
+.list a:nth-of-type(5){
+	background: url(../img/sy5.jpg) no-repeat bottom;
+	background-size: contain;
+}
+
+.list a:nth-of-type(6){
+	background: url(../img/sy6.jpg) no-repeat bottom;
+	background-size: contain;
+}
+
+.list a:nth-of-type(7){
+	background: url(../img/sy7.jpg) no-repeat bottom;
+	background-size: contain;
+}
+
+.list a:nth-of-type(8){
+	background: url(../img/sy8.jpg) no-repeat bottom;
+	background-size: contain;
+}
+
+.list a:nth-of-type(9){
+	background: url(../img/sy9.jpg) no-repeat bottom;
+	background-size: contain;
+}
+
+.foot{
+	width: 100%;
+	height: 0.88rem;
+	background: #FF6634;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.foot div{
+	width: 25%;
+    height: 100%;	
+    float: left;
+    line-height: 0.5rem;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    font-size: 0.4rem;
+}
+.foot .active{
+	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #B42E00;
+}
+.foot span{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.5rem;
+}
