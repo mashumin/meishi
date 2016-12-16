@@ -63,6 +63,10 @@ line-height: 1.5rem;
     margin: 0 auto;
     position: relative;
 }
+li a{
+	text-decoration: none;
+	color: #402B36;
+}
 li .icon-jingru{
     position: absolute;
     top:0;

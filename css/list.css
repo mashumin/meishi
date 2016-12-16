@@ -1,12 +1,12 @@
-body,html,h1{
+body,html,h1,input{
 	padding:0;
 	margin: 0;
 	width: 100%;
 	height: 100%;
 }
-a{
+/*a{
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
+}*/
 body{font-family:Helvetica;}
 header {
 	position: absolute;
@@ -17,6 +17,9 @@ header {
 	height: 0.88rem;
 	background: #FF6634;
 	
+}
+input{
+	border: 0;
 }
 .title{
 	width: 33.33%;
@@ -98,6 +101,7 @@ header {
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	z-index: 1;
 }
 .foot div{
 	width: 25%;
