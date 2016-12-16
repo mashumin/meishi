@@ -26,6 +26,7 @@
 	        <div class="swiper-slide"></div>
 	        <div class="swiper-slide"></div>
 	        <div class="swiper-slide"></div>
+	        <div class="swiper-slide"></div>
 	    </div>
 	    <div class="swiper-pagination"></div>
 	   
@@ -95,13 +96,15 @@
 	    pagination: '.swiper-pagination',
 	    nextButton: '.swiper-button-next',
     	prevButton: '.swiper-button-prev',
+    	 autoplay: 3000
       })
-       myScroll = new IScroll('#wrapper', { mouseWheel: true });
+       myScroll = new IScroll('#wrapper', { mouseWheel: true ,click:true});
        
        $(".foot a").click(function(){
        	  var index=$(this).index();
        	  $(".foot a").removeClass("active").eq(index).addClass("active")
        })
+       
        }
 </script>
 </html>

@@ -24,8 +24,8 @@
 		</div>
 	</div>
 <div class="foot" id="foot">
-    	<a href="index.html"><div class="iconfont icon-shouye2-copy active"><span>首页</span></div></a>
-    	<a href="list.html"><div class="iconfont icon-fenlei"><span>菜谱</span></div></a>
+    	<a href="index.html"><div class="iconfont icon-shouye2-copy"><span>首页</span></div></a>
+    	<a href="list.html"><div class="iconfont icon-fenlei  active"><span>菜谱</span></div></a>
     	<a href="tui.html"><div class="iconfont icon-tuijian02"><span>推荐</span></div></a>
     	<a href="my.html"><div class="iconfont icon-iconfontwode"><span>我的</span></div></a>
 </div>	
@@ -45,6 +45,10 @@
     }
 	window.onload=function(){
 		size(750)
+		 $(".foot a").click(function(){
+       	  var index=$(this).index();
+       	  $(".foot a").removeClass("active").eq(index).addClass("active")
+       })
 	}
 </script>
 </html>

@@ -74,18 +74,21 @@ header input{
 	height: 4.39rem;
 }
 .swiper-slide:nth-of-type(1){
-	background: url(../img/lunb1.jpg) no-repeat center;
+	background: url(../img/cp1.jpg) no-repeat center;
 	background-size: cover;
 }
 .swiper-slide:nth-of-type(2){
-	background: url(../img/lunb2.jpg) no-repeat center;
+	background: url(../img/sp5.png) no-repeat center;
 	background-size: cover;
 }
 .swiper-slide:nth-of-type(3){
 	background: url(../img/lunb3.jpg) no-repeat center;
 	background-size: cover;
 }
-
+.swiper-slide:nth-of-type(4){
+	background: url(../img/bj1.jpg) no-repeat center;
+	background-size: cover;
+}
 .categroy{
 	width: 100%;
 	height: 5rem;

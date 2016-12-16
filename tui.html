@@ -6,10 +6,17 @@
 		<link rel="stylesheet" href="css/swiper.min.css">
 		<link rel="stylesheet" href="css/swiper.css" />
 		<link rel="stylesheet" href="css/tui.css"/>
+		<link rel="stylesheet" href="css/list.css" />
+		<link rel="stylesheet" href="css/font/iconfont.css" />
 		<script src="js/jquery.js"></script>
 		<script src="js/swiper.min.js"></script>
 	</head>
 	<body>
+		<header id="header">
+		<a class="title iconfont icon-fanhui" href="index.html"></a>
+	    <h1 class="title">推荐</h1>
+	    <div class="title"><input type="search" results="s"  name="search" class="select"/></div>
+	</header>
 		<div class="bj">
 			<div class="swiper-container tui">
 				<div class="swiper-wrapper tui">
@@ -72,6 +79,12 @@
 				</div>
 			</div>
 		</div>
+			<div class="foot" id="foot">
+    	<a href="index.html"><div class="iconfont icon-shouye2-copy"><span>首页</span></div></a>
+    	<a href="list.html"><div class="iconfont icon-fenlei  "><span>菜谱</span></div></a>
+    	<a href="tui.html"><div class="iconfont icon-tuijian02 active"><span>推荐</span></div></a>
+    	<a href="my.html"><div class="iconfont icon-iconfontwode"><span>我的</span></div></a>
+</div>
 	</body>
 		<script>
 		function size(origin,type){
