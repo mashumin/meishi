@@ -99,7 +99,7 @@ header input{
 	width: 1.5rem;
 	height: 1.5rem;
 	float: left;
-	background: #D65037;
+	background: #FC6F55;
 	
 	line-height: 1.5rem;
 	color: #fff;
@@ -119,16 +119,16 @@ header input{
 	background: #FB82A5;
 }
 .categroy a:nth-of-type(4){
-	background: #931F22;
+	background: #C91F36;
 }
 .categroy a:nth-of-type(5){
-	background: #78902E;
+	background: #83A224;
 }
 .categroy a:nth-of-type(6){
-	background: #4E204E;
+	background: #892189;
 }
 .categroy a:nth-of-type(7){
-	background: #0D6152;
+	background: #129079;
 }
 .categroy a:nth-of-type(8){
 	background: #609BE7;
